@@ -1,4 +1,91 @@
-.App {
+/* body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: #f6f7fb;
+} */
+
+/* .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+} */
+
+/* Header */
+/* .header {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+} */
+
+/* .header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+} */
+
+/* Summary Cards */
+/* .summary-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-bottom: 25px;
+} */
+
+/* .card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+} */
+
+/* Events */
+/* .events {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+} */
+
+/* .event-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.event-item:last-child {
+  border: none;
+} */
+
+/* Responsive */
+/* @media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +122,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
