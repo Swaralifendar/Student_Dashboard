@@ -1,70 +1,173 @@
-# Getting Started with Create React App
+# Student Dashboard – Final Web Development Assignment  
+A fully responsive and interactive **Student Dashboard** built using **React**, **Tailwind CSS**, and **Chart.js**.  
+This dashboard includes a functional sidebar, summary cards, attendance analytics, dark mode, and more.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## **Project Overview**
 
-In the project directory, you can run:
+This project is designed as part of the *Full Stack Final Assignment*, showcasing:
+- Frontend development skills  
+- UI/UX implementation  
+- Component-based architecture in React  
+- Data visualization with Chart.js  
+- State management using React hooks  
+- Responsive and modern styling with TailwindCSS  
 
-### `npm start`
+The dashboard is suitable for students to view their:
+- Attendance  
+- CGPA  
+- Credits earned  
+- Exams cleared  
+- Attendance trend  
+- Upcoming events
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The UI supports **Dark Mode**, **Sidebar Navigation**, and **Real-time Clock**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## **Features Implemented**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###  1. Modern UI/UX  
+- Gradient header  
+- Animated cards  
+- Rounded surfaces + smooth shadows  
+- Responsive layout  
 
-### `npm run build`
+###  2. Functional Sidebar Navigation  
+Pages included:
+- **Home** (Dashboard)
+- **Courses**
+- **Profile**
+- **Settings**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Each sidebar button switches the current page using React State (`activePage`).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+###  3. Summary Cards  
+Dashboard displays:
+- Attendance %
+- CGPA
+- Credits Earned
+- Exams Cleared  
+Each card uses an icon + gradient badge + hover animation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###  4. Attendance Trend Chart  
+Powered by **Chart.js**:
+- Smooth curves  
+- Gradient area  
+- Responsive  
+- Updated styles for dark mode  
 
-### `npm run eject`
+###  5. Upcoming Events Section  
+A visually clean list of:
+- Seminars  
+- Exams  
+- Reviews  
+- Holidays  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+With icons + hover effects.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###  6. Dark Mode 
+Toggle between **Light Mode** and **Dark Mode**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+###  7. Real-Time Clock ⏱  
+Auto-updates every second using `setInterval`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## **Tech Stack Used**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Technology                     | Purpose 
+**React.js**                   | Component-based UI 
+**Tailwind CSS v3**            | Styling & responsiveness 
+**Chart.js + react-chartjs-2** | Graph visualization  **React Icons**                | UI icons 
+**JavaScript (ES6+)**          | Functionality 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## **Project Structure**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+student-dashboard/
+│
+├── public/  
+│   └── index.html
+│
+├── src/
+│   ├── assets/
+│   │   └── Profile_Photo_icon.jpg
+│   │
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Sidebar.js
+│   │   ├── SummaryCard.js
+│   │   ├── SummarySection.js
+│   │   ├── AttendanceChart.js
+│   │   └── EventsList.js
+│   │
+│   ├── data/
+│   │   └── events.js
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+│
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## **How to Run the Project**
 
-### Making a Progressive Web App
+### 1️⃣ Install dependencies
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 2️⃣ Start development server
+```
+npm start
+```
 
-### Advanced Configuration
+### 3️⃣ Open in browser
+```
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## **Screenshots Required for Submission**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Please include the following screenshots in a folder named `screenshots/`:
 
-### `npm run build` fails to minify
+1. **Full Dashboard – Home Page**  
+2. **Light Mode**  
+3. **Dark Mode**  
+4. **Sidebar Navigation (Courses page)**  
+5. **Sidebar Navigation (Profile page)**  
+6. **Sidebar Navigation (Settings page)**  
+7. **Attendance Trend Chart**  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## **Purpose of the Project**
+This dashboard demonstrates:
+- Practical frontend knowledge  
+- Component reusability  
+- React state management  
+- UI design capabilities  
+- Chart integration  
+- Clean, modular code organization  
+
+It fulfills the academic requirements of a fully functional dashboard for student data visualization.
+
+---
+
+## Developed by  
+**Swarali Fendar**  
+*Final Year – IT Department*  
+*Roll No. :- 13*
+
