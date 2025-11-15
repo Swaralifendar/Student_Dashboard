@@ -141,7 +141,7 @@ http://localhost:3000
 
 ## **Screenshots Required for Submission**
 
-Please include the following screenshots in a folder named `screenshots/`:
+The screenshots are in a folder named `screenshots/`:
 
 1. **Full Dashboard – Home Page**  
 2. **Light Mode**  
